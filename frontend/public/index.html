@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Agentic Orchestrator</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Agentic Orchestrator</h1>
+      <span id="backend-status" class="badge">checking backend…</span>
+    </header>
+
+    <section class="query-box">
+      <input id="query-input" type="text" placeholder="Try: 12 * (5 + 3)  or  what tools does the orchestrator have" />
+      <button id="run-btn">Run</button>
+    </section>
+
+    <section class="content">
+      <div class="panel">
+        <h2>State Machine Trace</h2>
+        <div id="steps"></div>
+      </div>
+      <div class="panel">
+        <h2>Answer</h2>
+        <div id="answer" class="answer-box">—</div>
+        <h2>Recent Runs</h2>
+        <ul id="run-history"></ul>
+      </div>
+    </section>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

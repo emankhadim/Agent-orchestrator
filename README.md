@@ -1,5 +1,8 @@
 # Agentic Orchestrator
 
+Perosonal Project 
+
+
 A small, fully-working full-stack agent orchestration platform, built to
 exercise a specific architecture: **the LLM proposes, a deterministic
 state machine decides.** No brittle prompt-chaining — every transition
